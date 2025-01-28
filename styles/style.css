@@ -51,6 +51,7 @@ ul {
   column-gap: 20px;
   margin-top: 8px;
   padding-right: 14px;
+  list-style-type: none;
 }
 
 .nav__link {
@@ -105,7 +106,7 @@ ul {
 
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
-  background-size: auto;
+  background-size: cover;
   padding: 100px 0 140px;
 }
 
@@ -135,6 +136,7 @@ ul {
   flex-wrap: wrap;
   gap: 40px;
   list-style-type: none;
+  margin: 68px auto 0;
 }
 
 .card {
@@ -172,8 +174,8 @@ ul {
 }
 
 .card__footer {
-  margin-top: 0;
   margin: 0;
+  margin-top: auto;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
