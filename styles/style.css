@@ -371,7 +371,7 @@ ul {
   flex-direction: column;
   background-color: #1f1f1f;
   color: white;
-  padding: 60 80px;
+  padding: 60px 80px;
 }
 
 .footer__columns {
@@ -419,6 +419,7 @@ ul {
 .footer__list {
   /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
+  padding: 0;
   margin: 0;
 }
 
