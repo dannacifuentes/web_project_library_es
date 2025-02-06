@@ -381,6 +381,7 @@ ul {
   align-items: end;
   margin: 60px 80px;
   position: relative;
+  column-gap: 80px;
 }
 
 .footer__column {
@@ -393,7 +394,7 @@ ul {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
@@ -423,6 +424,8 @@ ul {
 }
 
 .footer__list-item {
+  display: flex;
+  row-gap: 10px;
 }
 
 .footer__column-link {
@@ -439,4 +442,13 @@ ul {
   padding-bottom: 60px;
   margin-left: 80px;
   padding-top: 100px;
+}
+
+#redes {
+}
+
+#footer {
+}
+
+#miembro {
 }
