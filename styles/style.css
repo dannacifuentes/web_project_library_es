@@ -429,6 +429,7 @@ ul {
 }
 
 .footer__column-link {
+  display: flex;
   color: white;
   text-decoration: none;
 }
