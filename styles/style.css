@@ -10,21 +10,6 @@
   line-height: 20px;
 }
 
-h1,
-p {
-  margin: 0;
-}
-
-ul {
-  padding-left: 0;
-  list-style: none;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 760px;
-  margin: auto;
-}
-
 .header {
   display: flex;
   flex-direction: column;
@@ -334,17 +319,17 @@ ul {
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin-top: 100px;
+  margin: 100px 0 0;
   display: flex;
-  align-items: flex-start;
-  flex-wrap: nowrap;
+  column-gap: 40px;
+  justify-content: center;
 }
 
 .step {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 220px;
+  flex-basis: 220px;
   margin-right: 40px;
 }
 
@@ -378,7 +363,6 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: end;
   margin: 60px 80px;
   position: relative;
   column-gap: 80px;
@@ -432,6 +416,8 @@ ul {
   display: flex;
   color: white;
   text-decoration: none;
+  align-items: center;
+  gap: 10px;
 }
 
 .footer__social-icon {
@@ -442,5 +428,5 @@ ul {
 .footer__copyright {
   padding-bottom: 60px;
   margin-left: 80px;
-  padding-top: 100px;
+  margin-top: 100px;
 }
